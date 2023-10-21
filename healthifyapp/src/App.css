@@ -1,8 +1,16 @@
 #root {
-  max-width: 1280px;
-  margin: 0 auto;
-  padding: 2rem;
+  height: 100vh;
   text-align: center;
+  overflow: hidden;
+}
+.home {
+  background-image: url('/images/image.png');
+  height: 100vh; 
+  width: 100vw; 
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat; 
+  
 }
 
 
