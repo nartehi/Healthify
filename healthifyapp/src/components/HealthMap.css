@@ -1,0 +1,99 @@
+/* HealthMap.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 25px;
+    padding-left: 490px;
+    font-size: 40px;
+  }
+  
+  .profile {
+    background-color: #a3d2a8;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    display: flex;
+    font-family: 'Franklin Gothic Medium';
+    font-style: italic;
+
+    /* Adjust the margin to control the spacing between the header and the button */
+    margin-right: 20px;
+  }
+
+/* .subheader {
+    margin-left: 400px;
+    margin-right: 400px;
+    background-color: #81b731;
+
+} */
+
+
+.health-map {
+    /* background-image: url('/images/BlankMap.png'); */
+    background-size:contain;
+    background-repeat: no-repeat;
+    font-style: italic;
+    font-size: 30px;
+    height: 590px;
+    background-position: center;
+    /* margin-top: 30px; */
+    /* background-color: blanchedalmond; */
+    /* display: flex; */
+    /* flex-direction: column; */
+    /* justify-content: center; */
+    /* align-items: center;  */
+    /* height: 70vh; */
+  }
+  
+  .grid-container {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+  }
+  
+  .grid-row1 {
+    display: flex;
+    justify-content: center;
+    /* margin-left: 50px; */
+    text-align: center;
+  } 
+
+  .grid-row2 {
+    display: flex;
+    justify-content: center;
+    /* margin-left: 50px; */
+    text-align: center;
+
+  } 
+  
+  .grid-item {
+    font-family: 'Franklin Gothic Medium';
+    font-style: italic;
+    height: 15vh;
+    width: 20vh;
+    background-color: #5a9895; /* Change to your desired background color */
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    font-size: 20px;
+    /* vertical-align: 5px; */
+    /* text-align: center; */
+    /* justify-content: center; */
+    /* align-items: center; */
+  }
+  
+  .grid-item:hover {
+    background-color: #77cbd3; /* Change to your desired hover color */
+  }
+  
