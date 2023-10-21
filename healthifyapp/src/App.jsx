@@ -8,6 +8,7 @@ function App() {
       <h1> Healthy Kids Zone!</h1>
       {/* <Signup /> */}
       <HealthDimensions />
+      <button className='letsgoButn'>Let's Go!</button> {/* Add your button here */}
     </div>
   );
 }

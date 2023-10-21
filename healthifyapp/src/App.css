@@ -13,6 +13,22 @@
   
 }
 
+.letsgoButn {
+  height: 8vh;
+  font-size:20px;
+  width: 20vh;
+  background-color: #00b35c; /* Change to your desired background color */
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 300px;
+}
+
+.letsgoButn:hover {
+  background-color: #076528; /* Change to your desired hover color */
+}
 
 
 
