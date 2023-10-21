@@ -1,75 +1,55 @@
-/* HealthMap.css */
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 100%;
-    padding-top: 25px;
-    padding-left: 490px;
-    font-size: 40px;
-  }
-  
-  .profile {
-    background-color: #a3d2a8;
-    color: #fff;
-    padding: 10px 20px;
-    border: none;
-    cursor: pointer;
-    border-radius: 5px;
-    display: flex;
-    font-family: 'Franklin Gothic Medium';
-    font-style: italic;
-
-    /* Adjust the margin to control the spacing between the header and the button */
-    margin-right: 20px;
-  }
-
-/* .subheader {
-    margin-left: 400px;
-    margin-right: 400px;
-    background-color: #81b731;
-
-} */
-
 
 .health-map {
-    /* background-image: url('/images/BlankMap.png'); */
-    background-size:contain;
-    background-repeat: no-repeat;
-    font-style: italic;
+  background-size: contain;
+  background-repeat: no-repeat;
+  font-size: 30px;
+  height: 590px;
+  background-position: center;
+
+}
+
+.header {
+    
+    align-items: center;
+    width: 100%;
     font-size: 30px;
-    height: 590px;
-    background-position: center;
-    /* margin-top: 30px; */
-    /* background-color: blanchedalmond; */
-    /* display: flex; */
-    /* flex-direction: column; */
-    /* justify-content: center; */
-    /* align-items: center;  */
-    /* height: 70vh; */
-  }
+}
+
+.profile {
+  position: absolute;
+  top: 25px; /* Adjust the top value to position it vertically as desired */
+  right: 25px; /* Adjust the right value to position it horizontally as desired */
+  height: 40px;
+  width: 100px;
+  font-size: 20px;
+  background-color: #5a9895; /* Change to your desired background color */
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 50px;
+  margin-right: 15px;
+}
+
   
-  .grid-container {
+.grid-container {
     display: grid;
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin-top: 60px;
-  }
+    margin-top: 10px;
+}
   
-  .grid-row1 {
+.grid-row1 {
     display: flex;
     justify-content: center;
-    /* margin-left: 50px; */
     text-align: center;
   } 
 
   .grid-row2 {
     display: flex;
     justify-content: center;
-    /* margin-left: 50px; */
     text-align: center;
-
   } 
   
   .grid-item {
@@ -77,7 +57,7 @@
     font-style: italic;
     height: 15vh;
     width: 20vh;
-    background-color: #5a9895; /* Change to your desired background color */
+    background-color: #5a9895;    /* Change to your desired background color */
     color: #fff;
     padding: 10px 20px;
     cursor: pointer;
@@ -87,13 +67,187 @@
     margin-bottom: 20px;
     margin-right: 40px;
     font-size: 20px;
-    /* vertical-align: 5px; */
-    /* text-align: center; */
-    /* justify-content: center; */
-    /* align-items: center; */
   }
   
-  .grid-item:hover {
-    background-color: #77cbd3; /* Change to your desired hover color */
+  .grid-item1 {
+    background-image: url('/images/1.png');
+    background-size: cover; /* Scale the image to cover the button */
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 15vw;
+    max-height: 15%;
+    width: 200px;
+    height: 200px; /* Set the height to control the button size */
+    background-color: transparent; /* Change to your desired background color */
+    border: none;
+    border-color: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    text-align: center;
   }
+
+  .grid-item2 {
+    background-image: url('/images/2.png');
+    background-size: cover; /* Scale the image to cover the button */
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 15vw;
+    max-height: 15%;
+    width: 200px;
+    height: 200px; /* Set the height to control the button size */
+    background-color: transparent; /* Change to your desired background color */
+    border: none;
+    border-color: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    text-align: center;
+  }
+
+  .grid-item3 {
+    background-image: url('/images/3.png');
+    background-size: cover; /* Scale the image to cover the button */
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 15vw;
+    max-height: 15%;
+    width: 200px;
+    height: 200px; /* Set the height to control the button size */
+    background-color: transparent; /* Change to your desired background color */
+    border: none;
+    border-color: none;
+    cursor: pointer;
+    margin: 5px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    text-align: center;
+  }
+
+  .grid-item4 {
+    background-image: url('/images/4.png');
+    background-size: cover; /* Scale the image to cover the button */
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 15vw;
+    max-height: 15%;
+    width: 200px;
+    height: 200px; /* Set the height to control the button size */
+    background-color: transparent; /* Change to your desired background color */
+    border: none;
+    border-color: none;
+    cursor: pointer;
+    margin: 5px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    text-align: center;
+  }
+
+  .grid-item5 {
+    background-image: url('/images/5.png');
+    background-size: cover; /* Scale the image to cover the button */
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 15vw;
+    max-height: 15%;
+    width: 200px;
+    height: 200px; /* Set the height to control the button size */
+    background-color: transparent; /* Change to your desired background color */
+    border: none;
+    border-color: none;
+    cursor: pointer;
+    margin-bottom: 700px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    text-align: center;
+  }
+
+  .grid-item6 {
+    background-image: url('/images/6.png');
+    background-size: cover; /* Scale the image to cover the button */
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 15vw;
+    max-height: 15%;
+    width: 200px;
+    height: 200px; /* Set the height to control the button size */
+    background-color: transparent; /* Change to your desired background color */
+    border: none;
+    border-color: none;
+    cursor: pointer;
+    margin: 5px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    text-align: center;
+  }
+
+  .grid-item7 {
+    background-image: url('/images/7.png');
+    background-size: cover; /* Scale the image to cover the button */
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 15vw;
+    max-height: 15%;
+    width: 200px;
+    height: 200px; /* Set the height to control the button size */
+    background-color: transparent; /* Change to your desired background color */
+    border: none;
+    border-color: none;
+    cursor: pointer;
+    margin: 5px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    text-align: center;
+  }
+
+  .grid-item8 {
+    background-image: url('/images/8.png');
+    background-size: cover; /* Scale the image to cover the button */
+    background-repeat: no-repeat;
+    background-position: center;
+    max-width: 15vw;
+    max-height: 15%;
+    width: 200px;
+    height: 200px; /* Set the height to control the button size */
+    background-color: transparent; /* Change to your desired background color */
+    border: none;
+    border-color: none;
+    cursor: pointer;
+    margin: 5px;
+    margin-bottom: 20px;
+    margin-right: 40px;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center elements horizontally */
+    text-align: center;
+  }
+  
+ .btn-title {
+    font-size: 20px;
+    font-style: bold;
+    color: #282323; /* Title text color */
+    margin-top: 178px; /* Adjust the space between image and title */
+  }
+
+
   
