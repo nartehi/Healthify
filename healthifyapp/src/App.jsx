@@ -1,17 +1,13 @@
-
 import './App.css'
 import HealthDimensions from './components/HealthDimensions'
-
 function App() {
   return (
     <>
-      <div>
+      <div className='home'>
         <h1> Healthy Kids Zone!</h1>
         <HealthDimensions />
-      </div>
-      
+      </div> 
     </>
   )
 }
-
 export default App;
