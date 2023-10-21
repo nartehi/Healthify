@@ -1,8 +1,15 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'PT Sans', sans-serif;
+
+  .background-image{
+    .background {
+      background-image: url('your-image-url.jpg'); /* Replace with your image URL */
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+      width: 100%;
+      height: 100vh;
+    }
+    
   }
   
   .home,
@@ -19,7 +26,17 @@
   
   /*Sign up Page*/
   .form-modal__container {
-    margin: 0 0.5rem;
+    background-image: url('/images/background-image.jpeg');
+    height: 80%;
+    width: 100%;
+    /* background-size: contain; */
+    background-position: center;
+    background-repeat: no-repeat;
+    /* overflow: hidden; */
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 90px;
   }
   .form-modal__wrapper {
     display: flex;
@@ -46,6 +63,7 @@
   }
   
   .sign-up__container {
+    background-size: contain;
     background: #fff;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     width: 500px;
@@ -149,7 +167,7 @@
     background-color: #0056b3;
   }
   
-  /* Style for the "Guest" button */
+
   .guest-button {
     width: 100%; /* Button takes full width */
     margin: 0.5rem 0 0; /* Adjust margin */
@@ -169,3 +187,7 @@
   
   
 
+.background {
+background-color: green;
+
+}
