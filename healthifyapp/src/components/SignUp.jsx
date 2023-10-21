@@ -1,5 +1,6 @@
 import React from 'react';
 import './SignUp.css';
+import { Link } from 'react-router-dom';
 
 export default function SignUp() {
   return (
@@ -27,9 +28,12 @@ export default function SignUp() {
                 <label>Password</label>
                 <input type='password' placeholder='Password' />
               </div>
+              <Link to="/HealthMap">
               <button type='submit' className='btn-sign'>
                 Let's Go
               </button>
+              </Link>
+              
             </form>
             <div>
               <p className='have-account'>
