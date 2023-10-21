@@ -1,171 +1,115 @@
 * {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'PT Sans', sans-serif;
-  }
-  
-  .home,
-  .services,
-  .products,
-  .sign-up {
-    display: flex;
-    height: 90vh;
-    align-items: center;
-    justify-content: center;
-    font-size: 3rem;
-  }
- 
-  
-  /*Sign up Page*/
-  .form-modal__container {
-    margin: 0 0.5rem;
-  }
-  .form-modal__wrapper {
-    display: flex;
-    justify-content: center;
-    max-width: 900px;
-    height: 500px;
-    margin: 4rem auto;
-  }
-  
-  .sign-up {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    width: 350px;
-    height: inherit;
-    border-radius: 10px 0 0 10px;
-  }
-  
-  .sign-up > img {
-    object-fit: cover;
-    width: auto;
-    height: auto;
-  }
-  
-  .sign-up__container {
-    background: #fff;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    width: 500px;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
-    align-items: center;
-    border-radius: 0 10px 10px 0;
-    justify-content: center;
-  }
-  
-  .sign-up__container > h2 {
-   font-size: 3rem;
-   margin-bottom: 2rem;
-  }
-  
-  .sign-up__form {
-    display: flex;
-    flex-direction: column;
-    width: 90%;
-  }
-  
-  .sign-up__form > label {
-    font-size: 1.2rem;
-    margin-bottom: 0.3rem;
-  }
-  
-  
-  .sign-up__form > input {
-    margin-bottom: 1rem;
-    padding: 0.6rem;
-  }
-  
-  .sign-up__form .btn-sign {
-    padding: 12px 26px;
-    width: fit-content;
-    margin: 1.5rem auto 0;
-    border-radius: 2px;
-    font-size: 20px;
-    border: 1px solid #242424;
-    background-color: #242424;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  .sign-up__form .btn-sign:hover {
-    color: #242424;
-    background-color: #fff;
-  }
-  
-  .have-account {
-    font-size: 0.9rem;
-    color: #5a5a5a;
-  }
-  
-  .have-account span {
-    text-decoration: underline;
-    cursor: pointer;
-  }
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
 
-  /* ... your existing styles ... */
+body {
+  background-color: #C2D9FF;
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+.form-modal__container {
+  margin: 0 0.5rem;
+}
+.form-modal__wrapper {
+  display: flex;
+  justify-content: center;
+  max-width: 900px;
+  height: 500px;
+  margin: 4rem auto;
+}
+
+.sign-up {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  width: 350px;
+  height: inherit;
+  border-radius: 10px 0 0 10px;
+}
+
+.sign-up > img {
+  object-fit: cover;
+  width: auto;
+  height: auto;
+}
+
+.sign-up__container {
+  background: #fff;
+  box-shadow: 0 4px 90px rgba(0, 0, 0, 0.1);
+  width: 500px;
+  height: 70vh; /* Set the height to 70% of the viewport height */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+
+.sign-up__container > h2 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.sign-up__form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+
+.sign-up__form > label {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.sign-up__form > input {
+  margin-bottom: 1rem;
+  padding: 0.6rem;
+}
 
 /* Adjusting the layout for first name and last name */
 .name-inputs {
-    display: flex;
-    gap: 1rem; /* Space between first name and last name */
-  }
-  
-  /* Style for individual form group */
-  .form-group {
-    width: 100%; /* Each form group takes the full width */
-  }
-  
-  /* Add styling for the username and password fields */
-  .form-group label {
-    font-size: 1.2rem;
-    margin-bottom: 0.3rem;
-  }
-  
-  .form-group input {
-    margin-bottom: 1rem;
-    padding: 0.6rem;
-  }
-  
-  /* Style for the "Let's Go" button */
-  .sign-up__form .btn-sign {
-    width: 100%; /* Button takes full width */
-    margin: 1.5rem 0 0; /* Adjust margin */
-    border-radius: 5px; /* Slight border radius */
-    font-size: 1.2rem; /* Adjust font size */
-    background-color: #007bff;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    border: none;
-    padding: 12px 0; /* Adjust padding */
-  }
-  
-  .sign-up__form .btn-sign:hover {
-    background-color: #0056b3;
-  }
-  
-  /* Style for the "Guest" button */
-  .guest-button {
-    width: 100%; /* Button takes full width */
-    margin: 0.5rem 0 0; /* Adjust margin */
-    border-radius: 5px; /* Slight border radius */
-    font-size: 1.2rem; /* Adjust font size */
-    background-color: #5a5a5a;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    border: none;
-    padding: 12px 0; /* Adjust padding */
-  }
-  
-  .guest-button:hover {
-    background-color: #444444;
-  }
-  
-  
+  display: flex;
+  gap: 1rem; /* Space between first name and last name */
+}
+
+/* Style for individual form group */
+.form-group {
+  width: 100%; /* Each form group takes the full width */
+}
+
+/* Add styling for the username and password fields */
+.form-group label {
+  font-size: 1.2rem;
+  margin-bottom: 0.3rem;
+}
+
+.form-group input {
+  margin-bottom: 1rem;
+  padding: 0.6rem;
+}
+
+/* Style for the "Let's Go" button */
+.sign-up__form .btn-sign {
+  width: 150px; /* Make the button as wide as its content */
+  height: 50px;
+  border-radius: 5px; 
+  font-size: 1.2rem; /* Adjust font size */
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  border: none;
+  padding: 12px 0; /* Adjust padding */
+  margin: 0 auto; /* Center the button horizontally */
+}
+
+.sign-up__form .btn-sign:hover {
+  background-color: #0056b3;
+}
 
