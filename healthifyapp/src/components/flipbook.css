@@ -1,129 +1,114 @@
 .horizontal-flipbook-container {
-  margin-top: 20px;
   display: flex;
   justify-content: center;
-  overflow: hidden;
-
-}
-.start {
-    /* background-image: url('/public/images/Sunny.png'); */
-    /* background-size: 100%; */
-    background-repeat: no-repeat;
-    background-color: white;
-    padding-top: 100px;
-    border: 1px solid #000000;
-    border-radius: 10px;
-}
-
-.Sunny{
-/* background-size: 100%; */
-
-/* padding-top: 30px; */
-background-size: contain;
-width: 600px;
-height: 350px;
-animation: bounce 1s infinite alternate; /* Apply the bounce animation */
-}
-
-@keyframes bounce {
-  0% {
-    transform: translateY(0); /* Start position */
-  }
-  100% {
-    transform: translateY(-20px); /* End position (adjust the value as needed) */
-  }
-}
-
-.page1 {
-  padding-top: 20px;
-  background-color: #fff;
-  border: 1px solid #000000;
-  border-radius: 10px;
-  font-size: 18px;
-
-}
-.head1 {
-  padding-bottom: 40px;
-  font-size: 15px;
-}
-.pic1 {
-  padding-top: 20px;
-  background-image: url('/public/images/GoldCoins.png');
-  background-size: cover;
-  background-repeat: no-repeat;
-  border-radius: 100px;
-  width: 100%;
-  height: 160%;
-  overflow: hi0pxdden;
-}
-.image-container {
-  width: 100%;
-  height: 100%;
-  display: flex;
   align-items: center;
-  justify-content: center;
-  overflow: hidden;
-  border-radius: 10px;
+  height: 100vh;
 }
- .page2 {
+
+
+.start {
     background-color: #fff;
+    border: 1px solid #ccc;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 500px;
     height: 150px;
-    border-radius: 10px;
-    border: 1px solid #000000;
-    font-size: 18px;
-}
-.head2{
-  padding-top: 50px;
 }
 
-.image-container2{
-  height: 270px;
+.page1 {
+  background-color: #fff;
+  border: 1px solid #ccc;
   display: flex;
+  align-items: center;
   justify-content: center;
-  background-repeat: no-repeat;
+  width: 500px;
+  height: 150px;
 }
-.head3{
-  padding-top: 30px;
-}
-.page3 {
-    padding-top: 50px;
+
+.page2 {
     background-color: #fff;
-    border: 1px solid #000000;
-    border-radius: 10px;
-
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
     justify-content: center;
+    width: 500px;
+    height: 150px;
+}
 
-    font-size: 18px;
+.page3 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 150px;
 }
-.GivingMoney{
-  height: 175px;
-  display: flex;
-  justify-content: center;
-  background-repeat: no-repeat;
-}
-.head4{
-  padding-bottom: 50px;
-}
-.head5{
-  font-size: 50px;
+
+.page4 {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 150px;
 }
 
 .end {
     background-color: #fff;
-    border: 1px solid #000000;
+    border: 1px solid #ccc;
     display: flex;
     align-items: center;
     justify-content: center;
     width: 500px;
     height: 150px;
 }
-.TakeQuiz{
-}
-.Quiz{
-  background-color: green;
-  color: white;
-}
+
+/* CSS for Horizontal Flipbook with Navigation Buttons */
+.horizontal-flipbook-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative; /* Add position relative to position the navigation buttons */
+  }
+  
+  .navigation {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 21px;
+    z-index: 2; /* Ensure navigation buttons are above the flipbook */
+  }
+  
+  .navigation button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    width: 90px;
+    cursor: pointer;
+  }
+  
+  .navigation button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Add any additional styles for your pages */
+  .page {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 150px;
+  }
+  
+  
+  

@@ -7,13 +7,12 @@ import flipbook from './components/flipbook';
 import HorizontalFlipbook from './components/flipbook';
 function App() {
   return (
-    <div className='App'>
-      <h1> Healthy Kids Zone!</h1>
-      {/* <Signup /> */}
-      {/* <HealthDimensions />  */}
-      {/* <button className='letsgoButn'>Let's Go!</button> */}
-      {/* <HealthMap /> */}
-      <HorizontalFlipbook />
+    <div className="App">
+      <Routes>
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/healthmap" element={<HealthMap />} />
+        <Route path="/" element={<HomePage />} />
+      </Routes>
     </div>
   );
 }
