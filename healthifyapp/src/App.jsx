@@ -1,10 +1,10 @@
 import React from 'react';
 import Signup from './components/SignUp'; // the path to the Signup component
 import './App.css'
-// import HealthDimensions from './components/HealthDimensions';
-// import HealthMap from './components/HealthMap';
-import flipbook from './components/flipbook';
-import HorizontalFlipbook from './components/flipbook';
+import HomePage from './components/HomePage';
+import HealthMap from './components/HealthMap';
+import { Routes, Route } from 'react-router-dom';
+
 function App() {
   return (
     <div className="App">
@@ -16,5 +16,4 @@ function App() {
     </div>
   );
 }
-
 export default App;
