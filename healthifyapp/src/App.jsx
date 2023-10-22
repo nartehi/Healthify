@@ -1,21 +1,25 @@
 import React from 'react';
-import Signup from './components/SignUp'; // the path to the Signup component
-import './App.css'
-// import HealthDimensions from './components/HealthDimensions';
-// import HealthMap from './components/HealthMap';
-import flipbook from './components/flipbook';
-import HorizontalFlipbook from './components/flipbook';
+import Signup from './components/SignUp';
+import HomePage from './components/HomePage';
+import './App.css';
+import './index.css' // Import CSS Styling
+import { Routes, Route } from 'react-router-dom';
+import HealthMap from './components/HealthMap';
+
 function App() {
   return (
-    <div className='App'>
-      <h1> Healthy Kids Zone!</h1>
-      {/* <Signup /> */}
-      {/* <HealthDimensions />  */}
-      {/* <button className='letsgoButn'>Let's Go!</button> */}
-      {/* <HealthMap /> */}
-      <HorizontalFlipbook />
+    <div className="App">
+    <HorizontalFlipbook />
+      <Routes>
+        <Route path="/signup" element={<Signup />} />
+        <Route path="/healthmap" element={<HealthMap />} />
+        <Route path="/" element={<HomePage />} />
+      </Routes>
     </div>
   );
 }
-
 export default App;
+
+
+
+

@@ -1,14 +1,17 @@
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-    font-family: 'PT Sans', sans-serif;
-  }
-  
-  .home,
-  .services,
-  .products,
-  .sign-up {
+body {
+  background-image: url('/images/image.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sign-up {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -19,33 +22,29 @@
   
   /*Sign up Page*/
   .form-modal__container {
-    margin: 0 0.5rem;
+    background-image: url('/images/1.png');
+    height: 80%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
   }
   .form-modal__wrapper {
     display: flex;
     justify-content: center;
     max-width: 900px;
     height: 500px;
-    margin: 4rem auto;
   }
   
   .sign-up {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    width: 350px;
-    height: inherit;
-    border-radius: 10px 0 0 10px;
+    margin-top: 90px
   }
-  
-  .sign-up > img {
-    object-fit: cover;
-    width: auto;
-    height: auto;
-  }
-  
+
   .sign-up__container {
+    margin: 0 auto; /* Center the form horizontally */
+    background-size: contain;
     background: #fff;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     width: 500px;
@@ -54,7 +53,7 @@
     flex-direction: column;
     gap: 2rem;
     align-items: center;
-    border-radius: 0 10px 10px 0;
+    border-radius: 10px;
     justify-content: center;
   }
   
@@ -71,19 +70,16 @@
   
   .sign-up__form > label {
     font-size: 1.2rem;
-    margin-bottom: 0.3rem;
   }
   
   
   .sign-up__form > input {
-    margin-bottom: 1rem;
     padding: 0.6rem;
   }
   
   .sign-up__form .btn-sign {
     padding: 12px 26px;
     width: fit-content;
-    margin: 1.5rem auto 0;
     border-radius: 2px;
     font-size: 20px;
     border: 1px solid #242424;
@@ -98,6 +94,7 @@
   }
   
   .have-account {
+    margin-bottom: 90px;
     font-size: 0.9rem;
     color: #5a5a5a;
   }
@@ -107,12 +104,10 @@
     cursor: pointer;
   }
 
-  /* ... your existing styles ... */
-
 /* Adjusting the layout for first name and last name */
 .name-inputs {
     display: flex;
-    gap: 1rem; /* Space between first name and last name */
+    
   }
   
   /* Style for individual form group */
@@ -128,44 +123,25 @@
   
   .form-group input {
     margin-bottom: 1rem;
-    padding: 0.6rem;
+    padding: 0.5rem;
+    width: 30%;
   }
   
   /* Style for the "Let's Go" button */
   .sign-up__form .btn-sign {
-    width: 100%; /* Button takes full width */
-    margin: 1.5rem 0 0; /* Adjust margin */
+    width: 30%; /* Button takes full width */
     border-radius: 5px; /* Slight border radius */
     font-size: 1.2rem; /* Adjust font size */
-    background-color: #007bff;
+    background-color: #6c9ccf;
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s;
     border: none;
-    padding: 12px 0; /* Adjust padding */
+    margin-top: 20px;
   }
   
   .sign-up__form .btn-sign:hover {
-    background-color: #0056b3;
+    background-color: #94b8ab;
+    color: white;
   }
   
-  /* Style for the "Guest" button */
-  .guest-button {
-    width: 100%; /* Button takes full width */
-    margin: 0.5rem 0 0; /* Adjust margin */
-    border-radius: 5px; /* Slight border radius */
-    font-size: 1.2rem; /* Adjust font size */
-    background-color: #5a5a5a;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    border: none;
-    padding: 12px 0; /* Adjust padding */
-  }
-  
-  .guest-button:hover {
-    background-color: #444444;
-  }
-  
-  
-
