@@ -1,9 +1,9 @@
 .horizontal-flipbook-container {
-    margin-top: 20px;
+  font-family: 'Inconsolata', monospace;
+    margin-top: 90px;
     display: flex;
     justify-content: center;
     overflow: hidden;
-  
   }
   .start {
       background-repeat: no-repeat;
@@ -97,7 +97,8 @@
     background-color: #ffffff;
    
   }
-  .head5{
+  .head5 h3{
+    font-family: 'Inconsolata', monospace;
     font-size: 50px;
     background-color: rgb(255, 255, 255);
   }
@@ -115,7 +116,7 @@
   background-color: #ffffff;
   }
   .Quiz{
-    background-color: green;
+    background-color: #6c9ccf;
     color: white;
     padding-bottom: 15px;
     margin-bottom: 50px;

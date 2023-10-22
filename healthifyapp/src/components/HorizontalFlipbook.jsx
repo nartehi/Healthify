@@ -67,7 +67,7 @@ const HorizontalFlipbook = () => {
                   </div>
                   <div className="TakeQuiz">
                   <Link to="/Quiz">
-                  <button className="Quiz">Take The Quiz</button>
+                  <button className="Quiz">Take a quiz</button>
                   </Link>
                   </div>
                 </div>
