@@ -36,25 +36,12 @@ body {
     justify-content: center;
     max-width: 900px;
     height: 500px;
-    margin: 4rem auto;
   }
   
   .sign-up {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    width: 350px;
-    height: inherit;
-    border-radius: 10px 0 0 10px;
+    margin-top: 90px
   }
-  
-  .sign-up > img {
-    object-fit: cover;
-    width: auto;
-    height: auto;
-  }
-  
+
   .sign-up__container {
     margin: 0 auto; /* Center the form horizontally */
     background-size: contain;
@@ -83,19 +70,16 @@ body {
   
   .sign-up__form > label {
     font-size: 1.2rem;
-    margin-bottom: 0.3rem;
   }
   
   
   .sign-up__form > input {
-    margin-bottom: 1rem;
     padding: 0.6rem;
   }
   
   .sign-up__form .btn-sign {
     padding: 12px 26px;
     width: fit-content;
-    margin: 1.5rem auto 0;
     border-radius: 2px;
     font-size: 20px;
     border: 1px solid #242424;
@@ -110,6 +94,7 @@ body {
   }
   
   .have-account {
+    margin-bottom: 90px;
     font-size: 0.9rem;
     color: #5a5a5a;
   }
@@ -138,24 +123,25 @@ body {
   
   .form-group input {
     margin-bottom: 1rem;
-    padding: 0.6rem;
+    padding: 0.5rem;
+    width: 30%;
   }
   
   /* Style for the "Let's Go" button */
   .sign-up__form .btn-sign {
-    width: 100%; /* Button takes full width */
-    margin: 1.5rem 0 0; /* Adjust margin */
+    width: 30%; /* Button takes full width */
     border-radius: 5px; /* Slight border radius */
     font-size: 1.2rem; /* Adjust font size */
-    background-color: #007bff;
+    background-color: #6c9ccf;
     color: #fff;
     cursor: pointer;
     transition: background-color 0.3s;
     border: none;
-    padding: 12px 0; /* Adjust padding */
+    margin-top: 20px;
   }
   
   .sign-up__form .btn-sign:hover {
-    background-color: #0056b3;
+    background-color: #94b8ab;
+    color: white;
   }
   

@@ -8,26 +8,31 @@ export default function SignUp() {
       <div className='form-modal__container'>
         <div className='form-modal__wrapper'>
           <div className='sign-up__container'>
-            <h2>Sign Up</h2>
+            <h2 className='sign-up'>Sign Up</h2>
             <form className='sign-up__form'>
-              <div className='name-inputs'>
-                <div className='form-group'>
-                  <label>First Name</label>
-                  <input type='text' placeholder='John' />
-                </div>
-                <div className='form-group'>
-                  <label>Last Name</label>
-                  <input type='text' placeholder='Doe' />
-                </div>
-              </div>
+
               <div className='form-group'>
-                <label>Username</label>
-                <input type='text' placeholder='johndoe' />
+                  <label>First Name: </label>
+                  <input type='text' placeholder='' />
               </div>
+
               <div className='form-group'>
-                <label>Password</label>
-                <input type='password' placeholder='Password' />
+                  <label>Last Name: </label>
+                  <input type='text' placeholder='' />
+                </div>
+
+              
+
+              <div className='form-group'>
+                <label>Username: </label>
+                <input type='text' placeholder='' />
               </div>
+
+              <div className='form-group'>
+                <label>Password: </label>
+                <input type='password' placeholder='' />
+              </div>
+
               <Link to="/HealthMap">
               <button type='submit' className='btn-sign'>
                 Let's Go
