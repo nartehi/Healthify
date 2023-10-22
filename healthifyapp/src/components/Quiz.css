@@ -1,27 +1,72 @@
-.quiz {
-    width: 600px;
-    margin: 0 auto;
-    text-align: center;
-    border-radius: 30px;
-  }
-  
-  .question-section,
-  .answer-section {
-    margin-bottom: 20px;
-  }
-  
-  .score-section {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  button {
-    display: block;
-    width: 40%;
-    padding: 10px;
-    margin-bottom: 10px;
-    font-size: 18px;
-    background-color: rgb(201, 173, 136);
-    text-decoration-color: aqua;
-  }
-  
+/* Quiz.css */
+
+.quiz-container {
+  font-family: Arial, sans-serif;
+  background-color: #a6cbcf;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  width: 400px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  top: -30px;
+}
+
+.result {
+  padding: 20px;
+}
+
+.congratulations {
+  color: #00a00a;
+  font-size: 18px;
+}
+
+.keep-practicing {
+  color: #ff3333;
+  font-size: 18px;
+}
+
+.try-again-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.question-container {
+  padding: 20px;
+}
+
+.question-number {
+  font-size: 20px;
+}
+
+.question-text {
+  font-size: 18px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.answer-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.answer-button:hover {
+  background-color: #0056b3;
+}

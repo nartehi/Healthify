@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import PageFlip from "react-pageflip";
+import { Link } from "react-router-dom";
 import "./flipbook.css";
 
 const HorizontalFlipbook = () => {
@@ -65,7 +66,9 @@ const HorizontalFlipbook = () => {
                     <img src="/public/images/GivingMoney.png" alt="GivingMoney" />
                   </div>
                   <div className="TakeQuiz">
+                  <Link to="/Quiz">
                   <button className="Quiz">Take The Quiz</button>
+                  </Link>
                   </div>
                 </div>
 
