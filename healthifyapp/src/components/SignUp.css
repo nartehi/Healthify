@@ -1,21 +1,17 @@
+body {
+  background-image: url('/images/image.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  .background-image{
-    .background {
-      background-image: url('your-image-url.jpg'); /* Replace with your image URL */
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
-      background-repeat: no-repeat;
-      width: 100%;
-      height: 100vh;
-    }
-    
-  }
-  
-  .home,
-  .services,
-  .products,
-  .sign-up {
+.sign-up {
     display: flex;
     height: 90vh;
     align-items: center;
@@ -26,17 +22,14 @@
   
   /*Sign up Page*/
   .form-modal__container {
-    background-image: url('/images/background-image.jpeg');
+    background-image: url('/images/1.png');
     height: 80%;
     width: 100%;
-    /* background-size: contain; */
     background-position: center;
     background-repeat: no-repeat;
-    /* overflow: hidden; */
     text-align: center;
     display: flex;
     flex-direction: column;
-    margin-bottom: 90px;
   }
   .form-modal__wrapper {
     display: flex;
@@ -63,6 +56,7 @@
   }
   
   .sign-up__container {
+    margin: 0 auto; /* Center the form horizontally */
     background-size: contain;
     background: #fff;
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -72,7 +66,7 @@
     flex-direction: column;
     gap: 2rem;
     align-items: center;
-    border-radius: 0 10px 10px 0;
+    border-radius: 10px;
     justify-content: center;
   }
   
@@ -125,12 +119,10 @@
     cursor: pointer;
   }
 
-  /* ... your existing styles ... */
-
 /* Adjusting the layout for first name and last name */
 .name-inputs {
     display: flex;
-    gap: 1rem; /* Space between first name and last name */
+    
   }
   
   /* Style for individual form group */
@@ -167,27 +159,3 @@
     background-color: #0056b3;
   }
   
-
-  .guest-button {
-    width: 100%; /* Button takes full width */
-    margin: 0.5rem 0 0; /* Adjust margin */
-    border-radius: 5px; /* Slight border radius */
-    font-size: 1.2rem; /* Adjust font size */
-    background-color: #5a5a5a;
-    color: #fff;
-    cursor: pointer;
-    transition: background-color 0.3s;
-    border: none;
-    padding: 12px 0; /* Adjust padding */
-  }
-  
-  .guest-button:hover {
-    background-color: #444444;
-  }
-  
-  
-
-.background {
-background-color: green;
-
-}
