@@ -9,9 +9,9 @@ Our inspiration for this hackathon project stems from the pressing need to empow
 Out website is an interactive and engaging platform for young individuals to learn about the importance of wellness. Our vision was to make a website that looks and feels fun to use while teaching the 8 dimensions of wellness. After signing up or continuing as a guest, users are able to begin their quest to Healthify themselves by selecting the first level of wellness, the body. It isn't until a book is completed and a quiz is passed until they are able to unlock the next dimension of wellness.
 
 ## Built With
-*React
-*CSS
-*Java
+* React
+* CSS
+* Java
 
 ## Accomplishments that we're proud of
 We were able to get the page flip for the books to work, which gave a familiar but new feel for websites.
