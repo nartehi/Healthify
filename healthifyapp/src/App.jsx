@@ -9,7 +9,7 @@ import { Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <div className="App">
-      <HorizontalFlipbook />
+      {/* <HorizontalFlipbook /> */}
       <Routes>
         <Route path="/signup" element={<Signup />} />
         <Route path="/healthmap" element={<HealthMap />} />
