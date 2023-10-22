@@ -9,6 +9,7 @@ import HealthMap from './components/HealthMap';
 function App() {
   return (
     <div className="App">
+    <HorizontalFlipbook />
       <Routes>
         <Route path="/signup" element={<Signup />} />
         <Route path="/healthmap" element={<HealthMap />} />
