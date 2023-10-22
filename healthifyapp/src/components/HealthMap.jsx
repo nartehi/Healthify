@@ -14,7 +14,7 @@ const HealthMap = () => {
       <button className="profile">Profile</button>
 
       <div className="subheader">
-        <h4>Select a Level: </h4>
+        <h4>Select a health dimension: </h4>
       </div>
 
       <div className="grid-container">

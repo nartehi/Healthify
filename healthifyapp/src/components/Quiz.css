@@ -1,15 +1,17 @@
-/* Quiz.css */
-
 .quiz-container {
-  font-family: Arial, sans-serif;
-  background-color: #a6cbcf;
+  font-family: 'Inconsolata', monospace;
+  background-color: #ffffff;
   padding: 20px;
   text-align: center;
   border-radius: 10px;
   width: 400px;
-  margin: 0 auto;
+  margin: 0 auto; /* Center horizontally */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-  top: -30px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  
 }
 
 .result {
@@ -26,8 +28,8 @@
   font-size: 18px;
 }
 
-.try-again-button {
-  background-color: #007bff;
+.result button {
+  background-color: #6c9ccf;
   color: #fff;
   border: none;
   padding: 10px 20px;
@@ -53,12 +55,18 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
   margin-top: 20px;
 }
 
+.options button {
+  color: white;
+  background-color: #6c9ccf;
+  margin-bottom: 8px;
+}
+
 .answer-button {
-  background-color: #007bff;
-  color: #fff;
+  color: #000;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -67,6 +75,3 @@
   margin-top: 10px;
 }
 
-.answer-button:hover {
-  background-color: #0056b3;
-}

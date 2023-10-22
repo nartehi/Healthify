@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import "./Quiz.css"
+
 const Quiz = () => {
   const [questions, setQuestions] = useState([
     {
@@ -37,6 +38,8 @@ const Quiz = () => {
     setScore(0);
     setShowResult(false);
   };
+
+
   return (
     <div className="quiz-container">
       {showResult ? (
@@ -52,6 +55,7 @@ const Quiz = () => {
         <div className="question-container">
           <h2>Question {currentQuestionIndex + 1}</h2>
           <p>{questions[currentQuestionIndex].question}</p>
+
           <div className="options">
             {questions[currentQuestionIndex].options.map((option, index) => (
               <button

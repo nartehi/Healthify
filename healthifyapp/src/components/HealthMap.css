@@ -81,24 +81,29 @@ html, body {
   
   .grid-item1 {
     background-image: url('/images/3.png');
-    background-size: cover; /* Scale the image to cover the button */
+    background-size: cover; /* Scale the image to cover the entire button */
     background-repeat: no-repeat;
     background-position: center;
-    max-width: 15vw;
-    max-height: 15%;
     width: 200px;
-    height: 200px; /* Set the height to control the button size */
+    height: 200px; /* Set the width and height to match the image dimensions */
     background-color: transparent; /* Change to your desired background color */
-    border: none;
-    border-color: none;
+    border: none; /* Remove the border to eliminate the button shape */
     cursor: pointer;
-    margin-bottom: 20px;
-    margin-right: 40px;
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
-    align-items: center; /* Center elements horizontally */
+    flex-direction: column;
+    align-items: center;
     text-align: center;
+    margin-right: 40px;
   }
+  
+  .grid-item1 .btn-title {
+    font-family: 'Inconsolata', monospace;
+    font-size: 20px;
+    font-weight: 500; /* Use font-weight to make the text bold */
+    color: #282323; /* Title text color */
+    margin-top: 175px; /* Adjust the space between image and title */
+  }
+  
 
   .grid-item2 {
     background-image: url('/images/1.png');
