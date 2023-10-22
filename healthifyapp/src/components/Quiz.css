@@ -1,0 +1,27 @@
+.quiz {
+    width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 30px;
+  }
+  
+  .question-section,
+  .answer-section {
+    margin-bottom: 20px;
+  }
+  
+  .score-section {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  button {
+    display: block;
+    width: 40%;
+    padding: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+    background-color: rgb(201, 173, 136);
+    text-decoration-color: aqua;
+  }
+  

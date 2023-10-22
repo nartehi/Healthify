@@ -2,10 +2,6 @@ import React from 'react';
 import './HealthMap.css'; // Create a separate CSS file for HealthMap if needed
 
 const HealthMap = () => {
-  const handleClick = () => {
-    // Define the functionality when the button is clicked
-    alert('Image button clicked!');
-  };
 
   return (
     <div className="health-map">
