@@ -21,6 +21,7 @@ body {
   
   /*Sign up Page*/
   .form-modal__container {
+    font-family: 'Inconsolata', monospace;
     background-image: url('/images/1.png');
     height: 80%;
     width: 100%;
@@ -144,5 +145,3 @@ body {
     background-color: #94b8ab;
     color: white;
   }
-  
-  
