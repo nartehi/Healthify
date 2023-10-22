@@ -1,12 +1,13 @@
 import React from 'react';
-import './HealthMap.css';
-import { Link } from 'react-router-dom';
+import './HealthMap.css'; // Create a separate CSS file for HealthMap if needed
 
 const HealthMap = () => {
+
   return (
     <div className="health-map">
       <div className="header">
         <h2>Health Map</h2>
+        
       </div>
 
       <button className="profile">Profile</button>
@@ -17,19 +18,18 @@ const HealthMap = () => {
 
       <div className="grid-container">
         <div className="grid-row1">
+          {/* Embed the image as a button */}
           <button className="grid-item1">
+            <div className='btn-title'>Money</div>
+          </button>
+
+          <button className="grid-item2">
             <div className='btn-title'>Body</div>
           </button>
-          <Link to="/HorizontalFlipbook">
-            <button className="grid-item2">
-              <div className='btn-title'>Money</div>
-            </button>
-          </Link>
 
           <button className="grid-item3">
             <div className='btn-title'>Friends</div>
           </button>
-
           <button className="grid-item4">
             <div className='btn-title'>Feelings</div>
           </button>
