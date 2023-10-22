@@ -1,5 +1,6 @@
 import React from 'react';
 import './HealthMap.css'; // Create a separate CSS file for HealthMap if needed
+import { Link } from 'react-router-dom';
 
 const HealthMap = () => {
 
@@ -19,10 +20,11 @@ const HealthMap = () => {
       <div className="grid-container">
         <div className="grid-row1">
           {/* Embed the image as a button */}
+          <Link to="/HorizontalFlipbook">
           <button className="grid-item1">
             <div className='btn-title'>Money</div>
           </button>
-
+          </Link>
           <button className="grid-item2">
             <div className='btn-title'>Body</div>
           </button>
